@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --soft-orange: hsl(30, 30%, 80%);
+    --soft-green: hsl(120, 20%, 50%);
+    --text-color: hsl(30, 30%, 20%);
+    --border-color: hsl(0, 0%, 70%);
+    --muted-purple: hsl(300, 20%, 40%);
+}
+
+/* Nav bar section */
+#mobile-nav {
+    display: none;
+}
+
+.nav-bar {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    list-style: none;
+    height: 10vh;
+    background-color: hsla(0, 0%, 0%, 0.2);
+    font-size: 1.5rem;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#name {
+    color: var(--muted-purple);
+    font-size: 30px;
+}
+/* End of Nav */
+
+/* Hero Section */
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    background: linear-gradient(-45deg, var(--soft-green), var(--soft-orange)); 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0vh;
+    animation: scale 15s;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: hsla(0, 0%, 0%, 0.1);
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.firstWord {
+    color: var(--muted-purple);
+}
+
+.resume-cta {
+    border: 2px solid var(--muted-purple);
+    width: 175px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.resume-cta:hover {
+    background-color: rgba(100, 100, 100, 0.4);
+}
+
+.resume-text {
+    color: white;
+}
+/* End of Hero Section */
+
+html {
+    font-family: 'Times New Roman', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+

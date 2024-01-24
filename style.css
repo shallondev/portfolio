@@ -149,7 +149,7 @@ a {
     flex-flow: wrap;
 }
 
-.office-project {
+.wiki-project {
     width: 400px;
     height: 400px;
     background: white;
@@ -157,7 +157,33 @@ a {
     box-shadow: -15px 7px 30px hsla(0, 0%, 0%, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(calc.JPG);
+    background-image: url(images/wiki.JPG);
+    background-size: cover;
+    background-position: left center;
+}
+
+.email-project {
+    width: 400px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px hsla(0, 0%, 0%, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(images/email.JPG);
+    background-size: cover;
+    background-position: left center;
+}
+
+.commerce-project {
+    width: 400px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px hsla(0, 0%, 0%, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(images/commerce.JPG);
     background-size: cover;
     background-position: left center;
 }
@@ -259,7 +285,7 @@ a {
         background-color: rgba(0, 0, 0, 0.625);
     }
 
-    .office-project {
+    .wiki-project {
         width: 250px;
         height: 400px;
         background: white;
@@ -267,7 +293,33 @@ a {
         box-shadow: -15px 7px 30px hsla(0, 0%, 0%, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(calc.JPG);
+        background-image: url(images/wiki.JPG);
+        background-size: cover;
+        background-position: left center;
+    }
+
+    .email-project {
+        width: 250px;
+        height: 400px;
+        background: white;
+        position: relative;
+        box-shadow: -15px 7px 30px hsla(0, 0%, 0%, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(images/email.JPG);
+        background-size: cover;
+        background-position: left center;
+    }
+
+    .commerce-project {
+        width: 250px;
+        height: 400px;
+        background: white;
+        position: relative;
+        box-shadow: -15px 7px 30px hsla(0, 0%, 0%, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(images/commerce.JPG);
         background-size: cover;
         background-position: left center;
     }

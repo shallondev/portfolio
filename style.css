@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+html body {
+    background-color: hsl(210, 70%, 90%);
+}
+
 :root {
     --soft-orange: hsl(30, 30%, 80%);
     --soft-green: hsl(120, 20%, 50%);
@@ -131,6 +139,8 @@ a {
 .project-container {
     width: 100%;
     height: auto;
+    background-color: hsl(210, 70%, 90%);
+    margin-top: -20px;
 }
 
 .project-header {
@@ -139,6 +149,7 @@ a {
     align-items: center;
     justify-content: center;
     margin: 20px;
+    margin-top: 20px;
     color: var(--muted-purple);
 }
 
@@ -197,6 +208,7 @@ a {
     bottom: 0;
     background-color: white;
     overflow: hidden;
+    transition: all 0.3s ease;
 }
 .text-container:hover {
     height: 250px;
@@ -222,6 +234,14 @@ a {
 }
 
 /* About Section */
+
+.about-outer-container {
+    background-color: hsl(210, 70%, 90%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .about-container {
     margin: 10%;

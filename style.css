@@ -199,6 +199,19 @@ a {
     background-position: left top;
 }
 
+.network-project {
+    width: 800px;
+    height: 600px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px hsla(0, 0%, 0%, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(images/network.JPG);
+    background-size: cover;
+    background-position: left top;
+}
+
 .text-container {
     position: absolute;
     height: 75px;
@@ -340,6 +353,19 @@ a {
         border-radius: 10px;
         margin: 50px;
         background-image: url(images/commerce.JPG);
+        background-size: cover;
+        background-position: left top;
+    }
+
+    .network-project {
+        width: 300px;
+        height: 400px;
+        background: white;
+        position: relative;
+        box-shadow: -15px 7px 30px hsla(0, 0%, 0%, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(images/network.JPG);
         background-size: cover;
         background-position: left top;
     }
